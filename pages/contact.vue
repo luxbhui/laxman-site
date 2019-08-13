@@ -2,7 +2,7 @@
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
       title="Contact Us"
-      subtitle="Example Contact Page"
+      subtitle="Email or Call Us"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -18,27 +18,18 @@
               </p>
               <figure class="image is-1by1 ">
                 <opti-image
-                  :src="require('~/assets/uploads/contact-person.jpg').src"
-                  :srcset="
-                    require('~/assets/uploads/contact-person.jpg').srcSet
-                  "
+                  :src="require('~/assets/uploads/lax-img.jpg').src"
                 />
               </figure>
               <br />
-              <div class="content">
-                <p>
-                  <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
-                  </strong>
-                </p>
+              <!-- <div class="content">
                 <p>
                   This form doesn't actually work but would be easy enough to
                   slap an action on to have it post wherever you'd like. Or put
                   the netlify attribute on it and have netlify handle all your
                   form submissions...
                 </p>
-              </div>
+              </div> -->
             </article>
           </div>
           <div class="tile is-parent is-8">
